@@ -1,0 +1,100 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#nav img{
+    height: 40px;
+    width: 250px;
+    background-image: url(photo.jpg);
+    background-size: cover;
+    /* border: none; */
+}
+
+
+#nav{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+#nav-part{
+    display: flex;
+    gap: 55px;
+    text-transform: uppercase;
+}
+#nav-part2{
+    display: flex;
+    gap: 30px;
+    text-transform: uppercase;
+    align-items: center;
+}
+#nav button{
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    border: none;
+    font-weight: 600;
+}
+#para{
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+#para h1 span{
+     background-color: brown;
+    border-radius: 50px;
+    font-size: 25px;
+    padding: 10px 15px;
+  margin: 0 50px;
+    
+}
+#para h1{
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#para h1:nth-last-child(3){
+    color: red;
+    margin-top: 60px;
+}
+#img2{
+    height: 250px;
+    width: 230px;
+    background-image: url(jene-stephaniuk--MCrF6hnojU-unsplash.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 14%;
+    left: 6%;
+    padding-left: 20px;
+    border-radius: 30px;
+
+
+    
+}
+
+#img3{
+    height: 250px;
+    width: 230px;
+    background-image: url(markus-spiske-k0rVudBoB4c-unsplash.jpg);
+    background-size: cover;
+    position: absolute;
+    bottom: 14%;
+    left: 80%;
+    border-radius: 30px;
+}
+h5{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 18px;
+}
